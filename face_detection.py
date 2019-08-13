@@ -12,8 +12,8 @@ class detection:
         rec = cv2.face.LBPHFaceRecognizer_create()
         rec.read('reconizer\\traindata.yml')
         font = cv2.FONT_HERSHEY_SIMPLEX
-        #cap = cv2.VideoCapture(0)
-        url = 'http://192.168.1.108:8080/shot.jpg'
+        #cap = cv2.VideoCapture(0)#TO use laptop cam comment next line and use this
+        url = 'http://192.168.1.108:8080/shot.jpg'#add own server name using Ipwebcam android app
         def get_name(_id):
             path = "dataset"
             name =[i for i in os.listdir(path)]
