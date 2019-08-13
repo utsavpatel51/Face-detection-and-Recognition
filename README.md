@@ -15,3 +15,5 @@ A Face detection and recognition based on LBPH algorithm described in this paper
  3. At the end to detect face use face_detection.py here also you have to change 16th line (url =  'http://192.168.1.108:8080/shot.jpg') or just use comment 16th line and use the cv2.VideoCapture(0)
  
 Or directly you can run graphics.pyw which is create using Tkinter,but before using that change the line I mention in step 1 and 3 otherwise it won't run 
+
+It also store Intime and outtime based on detect face in fd.db file 
