@@ -4,8 +4,8 @@ import requests,time
 class dataset_gen:
     def genrate(_id,name):    
         face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-        #cap = cv2.VideoCapture(0)
-        url = 'http://192.168.1.108:8080/shot.jpg'
+        #cap = cv2.VideoCapture(0)#TO use laptop cam comment next line and use this
+        url = 'http://192.168.1.108:8080/shot.jpg'#add own server name using Ipwebcam android app
         sample=0
         font = cv2.FONT_HERSHEY_SIMPLEX
         while 1:
